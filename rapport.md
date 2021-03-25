@@ -19,4 +19,10 @@ Le message est bien celui que nous avons défini et l'ICV est correct. Pour que 
 
 ### 3. Fragmentation
 
+![](images/3_fragmented.PNG)
 
+On a bien un paquet divisé en 3.
+
+![](images/3_fragmented_reassembled.PNG)
+
+On peut alors avec le dernier paquet réassembler le tout et lire le contenu.

@@ -40,7 +40,7 @@ arp.wepdata = ciphertext[:-4]
 # ICV du corps de la trame chiffré au format Big endian
 arp.icv = struct.unpack("!L", ciphertext[-4:])[0]
 
-wrpcap("arpEncrypted.pcap", arp)
+wrpcap("step2.pcap", arp)
 
 print ('Text: ' + data)
 print ('icv:  ' + arp.icv.to_bytes(4, byteorder='big').hex())
