@@ -3,11 +3,11 @@
 
 """ Manually encrypt a wep message given the WEP key"""
 
-__author__      = "Michaël da Silva"
+__author__      = "Michaël da Silva, Nenad Rajic"
 __copyright__   = "Copyright 2021, HEIG-VD"
 __license__ 	= "GPL"
 __version__ 	= "1.0"
-__email__ 		= "michael.dasilva@heig-vd.ch"
+__email__ 		= "michael.dasilva@heig-vd.ch, nenad.rajic@heig-vd.ch"
 __status__ 		= "Prototype"
 
 from scapy.all import *

@@ -52,7 +52,7 @@ packets = []
 for i in range(numberFrags):
     # lecture de message chiffré - rdpcap retourne toujours un array, même si la capture contient un seul paquet
     arp = rdpcap('arp.cap')[0]
-
+    # Fragment du message du paquet
     text = dataChunks[i]
     # Bit de "more fragment" à 1 sauf le dernier
     if i != numberFrags-1:
